@@ -8,7 +8,7 @@ console.log('count from 0 to 3');
 // start i at 0, while i is < 4 do code between {}, afterwards add 1 to i (i++)
 for (let i=0; i<4; i++) {
   console.log(i);
-}
+} // end 'for' loop
 
 // 1.a. TODO: Write a for loop to console.log the numbers from 0 to 5
 //   - Which part of the example loop do you need to change to do this?
@@ -66,7 +66,7 @@ let index = 0;
 while (index < stars.length){
   console.log(stars[index]);
   index++;
-}
+} // end 'while' loop
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
@@ -77,7 +77,7 @@ const max = 5;
 while (index <= max){
   console.log(index);
   index++;
-} // end while loop
+} // end 'while' loop
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
@@ -88,4 +88,4 @@ const min = 5
 while (index >= min){
   console.log(index);
   index--;
-} //end while loop
+} //end 'while' loop
